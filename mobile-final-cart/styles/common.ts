@@ -1,0 +1,40 @@
+import { StyleSheet } from 'react-native';
+
+const W = '#fff', G = '#f5f5f5', P = '#007AFF', R = '#e53935', K = '#4CAF50';
+export const C = { p: P, ok: K, no: R, w: W, g: G };
+
+export const s = StyleSheet.create({
+  f1: { flex: 1, backgroundColor: G },
+  f1p: { flex: 1, padding: 16, backgroundColor: G },
+  cen: { flex: 1, justifyContent: 'center', alignItems: 'center' },
+  row: { flexDirection: 'row', alignItems: 'center', gap: 8 },
+  list: { flex: 1, padding: 16 },
+  item: { flexDirection: 'row', backgroundColor: W, padding: 12, marginBottom: 10, borderRadius: 8, alignItems: 'center' },
+  info: { flex: 1, marginLeft: 12 },
+  img: { width: 60, height: 60, borderRadius: 8 },
+  imgS: { width: 50, height: 50, borderRadius: 8 },
+  h1: { fontSize: 20, fontWeight: '700', textAlign: 'center', marginBottom: 20 },
+  t1: { fontSize: 16, fontWeight: '600' },
+  t2: { color: R, marginTop: 4 },
+  lb: { fontSize: 14, fontWeight: '600', marginBottom: 6, marginTop: 12 },
+  emp: { textAlign: 'center', marginTop: 50, color: '#666' },
+  inp: { backgroundColor: W, borderRadius: 8, padding: 12, fontSize: 16, borderWidth: 1, borderColor: '#ddd' },
+  btn: { backgroundColor: P, padding: 14, borderRadius: 8, alignItems: 'center' },
+  btnF: { flex: 1, backgroundColor: K, padding: 14, borderRadius: 8, alignItems: 'center' },
+  btnNo: { backgroundColor: R },
+  btnOff: { backgroundColor: '#ccc' },
+  btnT: { color: W, fontWeight: '600' },
+  btnS: { backgroundColor: K, paddingHorizontal: 10, paddingVertical: 6, borderRadius: 4 },
+  btnST: { color: W, fontSize: 12 },
+  btnR: { flexDirection: 'row', gap: 10, marginTop: 20 },
+  qB: { backgroundColor: P, width: 28, height: 28, borderRadius: 14, alignItems: 'center', justifyContent: 'center' },
+  qT: { color: W, fontSize: 16, fontWeight: '600' },
+  qN: { fontSize: 16, minWidth: 24, textAlign: 'center' },
+  bar: { backgroundColor: P, padding: 12, margin: 16, marginBottom: 0, borderRadius: 8, alignItems: 'center' },
+  foot: { padding: 16, backgroundColor: W, borderTopWidth: 1, borderColor: '#eee' },
+  tot: { fontSize: 18, fontWeight: '700', color: R, textAlign: 'center' },
+  card: { marginTop: 24, backgroundColor: W, padding: 16, borderRadius: 8, borderWidth: 1, borderColor: '#ddd' },
+  cardT: { fontSize: 16, fontWeight: '700', marginBottom: 8 },
+  add: { backgroundColor: P, margin: 16, padding: 16, borderRadius: 8, alignItems: 'center' },
+  del: { marginLeft: 10 },
+});
